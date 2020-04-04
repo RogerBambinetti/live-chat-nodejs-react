@@ -9,9 +9,15 @@ export default function Chat() {
     const [input, setInput] = useState('');
 
     return (
-        <>
-          
-        </>
+        <div className="container">
+            <form action="">
+                <label htmlFor="">User</label>
+                <input type="text" name="" id="" />
+                <label htmlFor="">Password</label>
+                <input type="password" name="" id="" />
+            <button type="submit">Enter</button>    
+            </form>
+        </div>
     );
 
 }
