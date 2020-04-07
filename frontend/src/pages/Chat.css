@@ -29,26 +29,20 @@
 }
 
 .received-message {
-    padding: 0 20px;
+    padding: 20px;
     background-color: #7B84DB;
     max-width: 80%;
-    min-height: 50px;
     border-radius: 5px;
     display: inline-block;
-    flex-direction: row;
-    align-items: center;
     color: #F2F2F2;
 }
 
 .sended-message {
-    padding: 0 20px;
+    padding: 20px;
     background-color: #F2F2F2;
     max-width: 80%;
-    min-height: 50px;
     border-radius: 5px;
     display: inline-block;
-    flex-direction: row-reverse;
-    align-items: center;
     color: #444;
 }
 

@@ -24,8 +24,8 @@ export default function Chat() {
 
     }, []);
 
-    function handleInput(event) {
-        event.preventDefault();
+    function handleInput(e) {
+        e.preventDefault();
         if (input) {
             const message = { sender, receiver, text: input };
             socket.emit('sendMessage', message);
@@ -54,7 +54,7 @@ export default function Chat() {
 
             </div>
             <div className="input-container">
-                <input value={input} onChange={e => { setInput(e.target.value) }} onKeyPress={event => event.key === 'Enter' ? handleInput(event) : null} name="input" id="input" />
+                <input value={input} onChange={e => setInput(e.target.value)} onKeyPress={event => event.key === 'Enter' ? handleInput(event) : null} name="input" id="input" />
                 <button type="submit" onClick={handleInput}></button>
             </div>
         </>
