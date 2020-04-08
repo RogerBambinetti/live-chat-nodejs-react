@@ -5,13 +5,13 @@ import api from '../services/api';
 
 import './Chat.css';
 
-export default function Chat() {
+export default function Chat({match}) {
 
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState([]);
 
-    const sender = 1;
-    const receiver = 2;
+    const sender = localStorage.getItem('sender');
+    const receiver = match.params.receiver;
 
     const socket = useMemo(() => socketio('http://localhost:3333', {
         query: { sender }
@@ -34,7 +34,7 @@ export default function Chat() {
     }
 
     return (
-        <>
+        <div className="chat-container">
             <div id="messages-container" className="messages-container">
                 <div className="received-message-container">
                     <div className="received-message"><p>Olá</p></div>
@@ -57,7 +57,7 @@ export default function Chat() {
                 <input value={input} onChange={e => setInput(e.target.value)} onKeyPress={event => event.key === 'Enter' ? handleInput(event) : null} name="input" id="input" />
                 <button type="submit" onClick={handleInput}></button>
             </div>
-        </>
+        </div>
     );
 
 }

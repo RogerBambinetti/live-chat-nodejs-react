@@ -11,11 +11,12 @@ export default function Chat({ history }) {
     async function handleLogin(e) {
         e.preventDefault();
         const response = await api.post('/users', { name });
-        history.push(`/chat/${response.data._id}`);
+        localStorage.setItem('sender', response.data._id);
+        history.push(`/contacts`);
     }
 
     return (
-        <div className="container">
+        <div className="login-container">
             <form action="">
                 <label htmlFor="">Name</label>
                 <input type="text" name="name" id="name" onChange={e => setName(e.target.value)} />

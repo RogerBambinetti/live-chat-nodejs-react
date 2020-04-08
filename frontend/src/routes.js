@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
 import Login from './pages/Login';
+import Contacts from './pages/Contacts';
 import Chat from './pages/Chat';
 
 export default function Routes() {
@@ -10,7 +11,8 @@ export default function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Login} />
-                <Route path="/chat/:id" exact component={Chat} />
+                <Route path="/contacts/" exact component={Contacts} />
+                <Route path="/chat/:receiver" exact component={Chat} />
             </Switch>
         </BrowserRouter>
     );
