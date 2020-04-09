@@ -19,7 +19,12 @@ module.exports = {
     },
 
     async index(req, res) {
-        const users = await User.find();
+        const { sender } = req.headers;
+        const users = await User.find({
+            $and: [
+                { _id: { $ne: sender } }
+            ]
+        });
         return res.json(users);
     }
 }

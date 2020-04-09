@@ -11,8 +11,8 @@ export default function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Login} />
-                <Route path="/contacts/" exact component={Contacts} />
-                <Route path="/chat/:receiver" exact component={Chat} />
+                <Route path="/contacts/:sender" exact component={Contacts} />
+                <Route path="/chat/:sender/:receiver" exact component={Chat} />
             </Switch>
         </BrowserRouter>
     );

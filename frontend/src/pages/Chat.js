@@ -5,12 +5,12 @@ import api from '../services/api';
 
 import './Chat.css';
 
-export default function Chat({match}) {
+export default function Chat({ match }) {
 
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState([]);
 
-    const sender = localStorage.getItem('sender');
+    const sender = match.params.sender;
     const receiver = match.params.receiver;
 
     const socket = useMemo(() => socketio('http://localhost:3333', {
@@ -19,7 +19,9 @@ export default function Chat({match}) {
 
     useEffect(() => {
         socket.on('message', message => {
-            setMessages(messages => [...messages, message]);
+            if (message.sender == sender || message.sender == receiver) {
+                setMessages(messages => [...messages, message]);
+            }
         });
 
     }, []);
@@ -36,12 +38,9 @@ export default function Chat({match}) {
     return (
         <div className="chat-container">
             <div id="messages-container" className="messages-container">
-                <div className="received-message-container">
-                    <div className="received-message"><p>Olá</p></div>
-                </div>
 
                 {messages.map(message => (
-                    message.sender === 1 ? (
+                    message.sender === sender ? (
                         <div className="sended-message-container">
                             <div className="sended-message"><p>{message.text}</p></div>
                         </div>

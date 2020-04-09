@@ -17,7 +17,8 @@ io.on('connection', socket => {
     connectedUsers[sender] = socket.id;
 
     socket.on('sendMessage', (message) => {
-        io.to(connectedUsers[sender]).emit('message', message);
+        io.to(connectedUsers[message.sender]).emit('message', message);
+        io.to(connectedUsers[message.receiver]).emit('message', message);
     });
 });
 

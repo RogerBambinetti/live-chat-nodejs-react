@@ -11,8 +11,7 @@ export default function Chat({ history }) {
     async function handleLogin(e) {
         e.preventDefault();
         const response = await api.post('/users', { name });
-        localStorage.setItem('sender', response.data._id);
-        history.push(`/contacts`);
+        history.push(`/contacts/${response.data._id}`);
     }
 
     return (

@@ -28,6 +28,10 @@
     margin-bottom: 50px;
 }
 
+.messages-container p{
+    overflow-wrap: break-word;
+}
+
 .received-message {
     padding: 20px;
     background-color: #7B84DB;
