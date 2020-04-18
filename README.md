@@ -1,10 +1,3 @@
-
-<h1 align="center">
-<img
-		width="200"
-		alt="Logo"
-		src="https://github.com/RogerBambinetti/tindev-nodejs-reactjs-react-native/blob/master/mobile/src/assets/logo%403x.png">
-</h1>
 <h3 align="center">
 	LiveChat - NodeJS - ReactJS - React Native
 </h3>
