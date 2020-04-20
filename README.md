@@ -1,12 +1,36 @@
 <h3 align="center">
-	Live Chat - NodeJS
+	LiveChat - NodeJS - ReactJS - React Native
 </h3>
+
+<p align="center">
+<img
+		width="700"
+		alt="Capture 4"
+		src="https://github.com/RogerBambinetti/tindev-nodejs-reactjs-react-native/blob/master/preview/Screenshot0.png">
+</p>
 
 ## Visão geral
 
+**Este projeto foi desenvolvido para fins de aprendizagem.** 4 telas estão disponíveis, divididas entre o sistema web e mobile.
 
 
 ## Telas
+
+O projeto possui uma versão mobile, mas o layout responsivo da aplicação web também adequa-se a dispositivos móveis.
+
+<p align="center">
+<img
+		width="350"
+		alt="Capture 1"
+		src="https://github.com/RogerBambinetti/devradar-nodejs-reactjs-react-native/blob/master/preview/Screenshot1.png">
+<img
+		width="350"
+		alt="Capture 2"
+		src="https://github.com/RogerBambinetti/devradar-nodejs-reactjs-react-native/blob/master/preview/Screenshot2.png">
+<img
+		width="350"
+		alt="Capture 3"
+		src="https://github.com/RogerBambinetti/devradar-nodejs-reactjs-react-native/blob/master/preview/Screenshot3.png">
 
 
 
