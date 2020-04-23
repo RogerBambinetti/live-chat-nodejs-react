@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import socketio from 'socket.io-client';
 
-import api from '../services/api';
 
 import './Chat.css';
 
@@ -13,18 +12,18 @@ export default function Chat({ match }) {
     const sender = match.params.sender;
     const receiver = match.params.receiver;
 
-    const socket = useMemo(() => socketio('http://localhost:3333', {
+    const socket = useMemo(() => socketio('http://b4156841.ngrok.io/', {
         query: { sender }
     }), [sender]);
 
     useEffect(() => {
         socket.on('message', message => {
-            if (message.sender == sender || message.sender == receiver) {
+            if (message.sender === sender || message.sender === receiver) {
                 setMessages(messages => [...messages, message]);
             }
         });
 
-    }, []);
+    }, [receiver, sender, socket]);
 
     function handleInput(e) {
         e.preventDefault();

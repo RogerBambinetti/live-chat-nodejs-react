@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState} from 'react';
 
 import api from '../services/api';
 
@@ -14,7 +14,7 @@ export default function Contacts({ history, match }) {
             setContacts(response.data);
         }
         loadContacts();
-    }, []);
+    }, [match.params.sender]);
 
     async function handleRedirect(e) {
         history.push(`/chat/${match.params.sender}/${e.target.id}`);
