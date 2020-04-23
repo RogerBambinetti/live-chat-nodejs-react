@@ -12,7 +12,7 @@ export default function Chat({ match }) {
     const sender = match.params.sender;
     const receiver = match.params.receiver;
 
-    const socket = useMemo(() => socketio('http://b4156841.ngrok.io/', {
+    const socket = useMemo(() => socketio('http://localhost:3333', {
         query: { sender }
     }), [sender]);
 
@@ -38,13 +38,13 @@ export default function Chat({ match }) {
         <div className="chat-container">
             <div id="messages-container" className="messages-container">
 
-                {messages.map(message => (
+                {messages.map((message, index) => (
                     message.sender === sender ? (
-                        <div className="sended-message-container">
+                        <div key={index} className="sended-message-container">
                             <div className="sended-message"><p>{message.text}</p></div>
                         </div>
                     ) : (
-                            <div className="received-message-container">
+                            <div key={index} className="received-message-container">
                                 <div className="received-message"><p>{message.text}</p></div>
                             </div>
                         )

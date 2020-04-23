@@ -23,7 +23,7 @@ export default function Contacts({ history, match }) {
     return (
         <div className="contacts-container">
             {contacts.map(contact => (
-                <div className="contact-container" id={contact._id} onClick={handleRedirect}>
+                <div key={contact._id} className="contact-container" id={contact._id} onClick={handleRedirect}>
                     <div className="avatar"></div>
                     <p>{contact.name}</p>
                 </div>
