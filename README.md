@@ -22,15 +22,15 @@ O projeto possui uma versão mobile, mas o layout responsivo da aplicação web 
 <img
 		width="350"
 		alt="Capture 1"
-		src="https://github.com/RogerBambinetti/devradar-nodejs-reactjs-react-native/blob/master/preview/Screenshot1.png">
+		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot1.png">
 <img
 		width="350"
 		alt="Capture 2"
-		src="https://github.com/RogerBambinetti/devradar-nodejs-reactjs-react-native/blob/master/preview/Screenshot2.png">
+		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot2.png">
 <img
 		width="350"
 		alt="Capture 3"
-		src="https://github.com/RogerBambinetti/devradar-nodejs-reactjs-react-native/blob/master/preview/Screenshot3.png">
+		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot3.png">
 
 
 
