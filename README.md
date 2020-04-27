@@ -1,3 +1,9 @@
+<h1 align="center">
+<img
+		width="200"
+		alt="Logo"
+		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/logo.png">
+</h1>
 <h3 align="center">
 	LiveChat - NodeJS - ReactJS - React Native
 </h3>
