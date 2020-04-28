@@ -8,12 +8,7 @@
 	LiveChat - NodeJS - ReactJS - React Native
 </h3>
 
-<p align="center">
-<img
-		width="700"
-		alt="Capture 4"
-		src="https://github.com/RogerBambinetti/tindev-nodejs-reactjs-react-native/blob/master/preview/Screenshot0.png">
-</p>
+
 
 ## Visão geral
 
