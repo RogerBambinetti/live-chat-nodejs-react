@@ -17,7 +17,7 @@
 
 ## Telas
 
-O projeto possui uma versão mobile, mas o layout responsivo da aplicação web também adequa-se a dispositivos móveis.
+O layout responsivo adequa-se bem a dispositivos móveis e desktop.
 
 <p align="center">
 <img
