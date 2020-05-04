@@ -8,7 +8,12 @@
 	LiveChat - NodeJS - ReactJS - React Native
 </h3>
 
-
+<p align="center">
+<img
+		width="700"
+		alt="Capture 0"
+		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot0.png">
+</p>
 
 ## Visão geral
 
