@@ -1,7 +1,6 @@
 <h1 align="center">
 <img
 		width="200"
-		alt="Logo"
 		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/logo.png">
 </h1>
 <h3 align="center">
@@ -11,7 +10,6 @@
 <p align="center">
 <img
 		width="700"
-		alt="Capture 0"
 		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot0.png">
 </p>
 
@@ -27,17 +25,14 @@ O layout responsivo adequa-se bem a dispositivos móveis e desktop.
 <p align="center">
 <img
 		width="350"
-		alt="Capture 1"
 		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot1.png">
 <img
 		width="350"
-		alt="Capture 2"
 		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot2.png">
 <img
 		width="350"
-		alt="Capture 3"
 		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot3.png">
-
+</p>
 
 
 ## Contribuidores
