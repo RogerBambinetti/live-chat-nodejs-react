@@ -12,7 +12,8 @@
 		width="700"
 		src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot0.png">
 </p>
-
+ 
+ 
 ## Visão geral
 
 **Este projeto foi desenvolvido para fins de aprendizagem.** 4 telas estão disponíveis, divididas entre o sistema web e mobile.
