@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
+import { FiSend } from 'react-icons/fi';
 import socketio from 'socket.io-client';
 
 
@@ -53,7 +54,9 @@ export default function Chat({ match }) {
             </div>
             <div className="input-container">
                 <input value={input} onChange={e => setInput(e.target.value)} onKeyPress={event => event.key === 'Enter' ? handleInput(event) : null} name="input" id="input" />
-                <button type="submit" onClick={handleInput}></button>
+                <button type="submit" onClick={handleInput}>
+                    <FiSend size={25} color="#F2F2F2" />
+                </button>
             </div>
         </div>
     );

@@ -1,7 +1,12 @@
+.chat-container{
+    display: flex;
+    justify-content: center;
+}
+
 .input-container {
     display: flex;
     width: 100%;
-    background-color: white;
+    max-width: 1000px;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -11,6 +16,8 @@
 .input-container input {
     width: calc(100% - 50px);
     height: 50px;
+    padding: 10px;
+    border-radius: 5px;
     border: none;
 }
 
@@ -21,11 +28,16 @@
     border-radius: 25px;
     background-color: #7B84DB;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .messages-container {
     padding: 20px;
     margin-bottom: 50px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .messages-container p{

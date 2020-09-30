@@ -3,6 +3,7 @@ import React, {useState } from 'react';
 import api from '../services/api';
 
 import './Login.css';
+import Logo from '../assets/logo.png';
 
 export default function Chat({ history }) {
 
@@ -16,7 +17,8 @@ export default function Chat({ history }) {
 
     return (
         <div className="login-container">
-            <form action="">
+            <img src={Logo}/>
+            <form>
                 <label htmlFor="">Name</label>
                 <input type="text" name="name" id="name" onChange={e => setName(e.target.value)} />
                 <button type="submit" onClick={handleLogin}>Enter</button>
