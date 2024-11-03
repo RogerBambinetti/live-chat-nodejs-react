@@ -16,7 +16,7 @@ io.on('connection', socket => {
     const { sender } = socket.handshake.query;
     connectedUsers[sender] = socket.id;
 
-    console.log("new user: "+ socket.id);
+    console.log("new user: " + socket.id);
 
     socket.on('sendMessage', (message) => {
         io.to(connectedUsers[message.sender]).emit('message', message);
@@ -24,7 +24,7 @@ io.on('connection', socket => {
     });
 });
 
-mongoose.connect('mongodb://rogerbambinetti:rogerbambinetti@cluster-shard-00-00-jmacf.mongodb.net:27017,cluster-shard-00-01-jmacf.mongodb.net:27017,cluster-shard-00-02-jmacf.mongodb.net:27017/livechat?ssl=true&replicaSet=Cluster-shard-0&authSource=admin&retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.DB_MONGO_CLUSTER, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use((req, res, next) => {
     req.io = io;

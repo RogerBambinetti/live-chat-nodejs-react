@@ -46,7 +46,7 @@ npm install
 
 ### 3. Configuração do Ambiente
 
-Antes de rodar o projeto, você pode configurar variáveis de ambiente (se necessário) criando um arquivo `.env` com as chaves apropriadas. Consulte o arquivo `.env.example` (caso exista) para mais informações.
+Antes de rodar o projeto, você deve configurar variáveis de ambiente criando um arquivo `.env` com as chaves apropriadas. Consulte o arquivo `.env.example` para mais informações.
 
 ### 4. Executando o Servidor
 
