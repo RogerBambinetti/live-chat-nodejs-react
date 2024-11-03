@@ -41,7 +41,7 @@ cd live-chat-nodejs
 
 ### 2. Instale as dependências
 
-Na pasta do projeto, execute o comando:
+Nas pastas de backend e frontend, execute o comando:
 
 ```bash
 npm install
@@ -53,16 +53,16 @@ Antes de rodar o projeto, você pode configurar variáveis de ambiente (se neces
 
 ### 4. Executando o Servidor
 
-Após a instalação das dependências, inicie o servidor com o comando:
-
-```bash
-npm start
-```
-
-Para desenvolvimento, você também pode utilizar:
+Após a instalação das dependências, inicie o servidor em modo desenvolvimento com o comando:
 
 ```bash
 npm run dev
+```
+
+Para iniciar o frontend:
+
+```bash
+npm start
 ```
 
 Este comando ativa o modo de desenvolvimento, com hot-reloading para uma experiência mais dinâmica.
