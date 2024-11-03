@@ -47,12 +47,10 @@ Este projeto é destinado apenas para fins de aprendizado e não está licenciad
 
 <table align="center">
   <tr>
-    <td align="center">
       <a href="https://github.com/RogerBambinetti">
         <img src="https://avatars0.githubusercontent.com/u/50684839?s=460&v=4" width="100px" alt="Foto do Roger Bambinetti"/>
         <br />
         <sub><b>Roger Bambinetti</b></sub>
       </a>
-    </td>
   </tr>
 </table>
