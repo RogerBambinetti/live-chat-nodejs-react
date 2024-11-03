@@ -18,6 +18,57 @@ Este projeto de **LiveChat** foi desenvolvido como uma plataforma de chat intera
 
 ---
 
+## 📋 Pré-requisitos
+
+Para rodar este projeto, certifique-se de que seu ambiente atenda aos seguintes requisitos:
+
+- **Node.js**: Versão 12.x.x
+- **NPM**: Geralmente instalado junto com o Node.js
+- **Git**: Para clonar o repositório
+
+> ⚠️ **Nota**: Este projeto foi desenvolvido para ser executado com Node.js na versão 12. Outras versões podem causar incompatibilidades.
+
+---
+
+## 📥 Instalação e Execução do Projeto
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/RogerBambinetti/live-chat-nodejs.git
+cd live-chat-nodejs
+```
+
+### 2. Instale as dependências
+
+Na pasta do projeto, execute o comando:
+
+```bash
+npm install
+```
+
+### 3. Configuração do Ambiente
+
+Antes de rodar o projeto, você pode configurar variáveis de ambiente (se necessário) criando um arquivo `.env` com as chaves apropriadas. Consulte o arquivo `.env.example` (caso exista) para mais informações.
+
+### 4. Executando o Servidor
+
+Após a instalação das dependências, inicie o servidor com o comando:
+
+```bash
+npm start
+```
+
+Para desenvolvimento, você também pode utilizar:
+
+```bash
+npm run dev
+```
+
+Este comando ativa o modo de desenvolvimento, com hot-reloading para uma experiência mais dinâmica.
+
+---
+
 ## 📱 Telas e Layout
 
 O layout é responsivo e se adapta bem a dispositivos móveis e desktop, com quatro telas disponíveis para interação.
