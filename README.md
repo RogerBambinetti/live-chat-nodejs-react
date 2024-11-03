@@ -32,8 +32,8 @@ To run this project, make sure your environment meets the following requirements
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/RogerBambinetti/live-chat-nodejs.git
-cd live-chat-nodejs
+git clone https://github.com/RogerBambinetti/live-chat-nodejs-reactjs.git
+cd live-chat-nodejs-reactjs-react-native
 ```
 
 ### 2. Install dependencies
