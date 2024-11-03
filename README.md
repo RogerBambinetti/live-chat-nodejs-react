@@ -11,63 +11,63 @@
 </p>
 
 
-## 🚀 Sobre o Projeto
+## 🚀 About the Project
 
-Este projeto de **LiveChat** foi desenvolvido como uma plataforma de chat interativa para fins de aprendizado. Ele apresenta telas para a versão web que se adequam a dispositivos mobile, oferecendo uma experiência responsiva e amigável em diferentes dispositivos.
-
-
-## 📋 Pré-requisitos
-
-Para rodar este projeto, certifique-se de que seu ambiente atenda aos seguintes requisitos:
-
-- **Node.js**: Versão 12.x.x
-- **NPM**: Geralmente instalado junto com o Node.js
-- **Git**: Para clonar o repositório
-
-> ⚠️ **Nota**: Este projeto foi desenvolvido para ser executado com Node.js na versão 12. Outras versões podem causar incompatibilidades.
+This **LiveChat** project was developed as an interactive chat platform for learning purposes. It includes web version screens that adapt to mobile devices, providing a responsive and user-friendly experience across different devices.
 
 
-## 📥 Instalação e Execução do Projeto
+## 📋 Prerequisites
 
-### 1. Clone o repositório
+To run this project, make sure your environment meets the following requirements:
+
+- **Node.js**: Version 12.x.x
+- **NPM**: Usually installed with Node.js
+- **Git**: To clone the repository
+
+> ⚠️ **Note**: This project was developed to run with Node.js version 12. Other versions may cause incompatibilities.
+
+
+## 📥 Installation and Running the Project
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/RogerBambinetti/live-chat-nodejs.git
 cd live-chat-nodejs
 ```
 
-### 2. Instale as dependências
+### 2. Install dependencies
 
-Nas pastas de backend e frontend, execute o comando:
+In the backend and frontend folders, run the following command:
 
 ```bash
 npm install
 ```
 
-### 3. Configuração do Ambiente
+### 3. Environment Configuration
 
-Antes de rodar o projeto, você deve configurar variáveis de ambiente criando um arquivo `.env` com as chaves apropriadas. Consulte o arquivo `.env.example` para mais informações.
+Before running the project, you need to set up environment variables by creating a `.env` file with the appropriate keys. Refer to the `.env.example` file for more information.
 
-### 4. Executando o Servidor
+### 4. Starting the Server
 
-Após a instalação das dependências, inicie o servidor em modo desenvolvimento com o comando:
+After installing the dependencies, start the server in development mode with the command:
 
 ```bash
 npm run dev
 ```
 
-Para iniciar o frontend:
+To start the frontend:
 
 ```bash
 npm start
 ```
 
-Este comando ativa o modo de desenvolvimento, com hot-reloading para uma experiência mais dinâmica.
+This command activates development mode with hot-reloading for a more dynamic experience.
 
 
-## 📱 Telas e Layout
+## 📱 Screens and Layout
 
-O layout é responsivo e se adapta bem a dispositivos móveis e desktop, com quatro telas disponíveis para interação.
+The layout is responsive and adapts well to both mobile and desktop devices, with four screens available for interaction.
 
 <p align="center">
   <img src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot1.png" width="300">
@@ -76,23 +76,23 @@ O layout é responsivo e se adapta bem a dispositivos móveis e desktop, com qua
 </p>
 
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Technologies Used
 
 - **Back-end:** NodeJS
 - **Front-end Web:** ReactJS
 
 
-## 📄 Licença
+## 📄 License
 
-Este projeto é destinado apenas para fins de aprendizado e não está licenciado para uso comercial.
+This project is intended for learning purposes only and is not licensed for commercial use.
 
 
-## 👥 Contribuidores
+## 👥 Contributors
 
 <table align="center">
   <tr>
       <a href="https://github.com/RogerBambinetti">
-        <img src="https://avatars0.githubusercontent.com/u/50684839?s=460&v=4" width="100px" alt="Foto do Roger Bambinetti"/>
+        <img src="https://avatars0.githubusercontent.com/u/50684839?s=460&v=4" width="100px" alt="Photo of Roger Bambinetti"/>
         <br />
         <sub><b>Roger Bambinetti</b></sub>
       </a>
