@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 
 - **Node.js**: Version 12.x
 - **NPM**: Usually installed with Node.js
-- **Git**: To clone the repository
+- **Git**: Any version to clone the repository
 
 > ⚠️ **Note**: Using other versions may cause incompatibilities.
 
