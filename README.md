@@ -15,7 +15,7 @@ This **LiveChat** project was developed as an interactive chat platform for lear
 
 Before you begin, ensure you have met the following requirements:
 
-- **Node.js**: Version 12.x
+- **Node.js**: v12.x
 - **NPM**: Usually installed with Node.js
 
 > ⚠️ **Note**: Using other versions may cause incompatibilities.
