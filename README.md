@@ -58,7 +58,10 @@ This command activates development mode with hot-reloading for a more dynamic de
 ## Screens and Layout
 
 The layout is responsive and adapts well to both mobile and desktop devices, with four screens available for interaction.
+
+<p align="center">
   <img src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot0.png" width="700">
+</p>
 <p align="center">
   <img src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot1.png" width="300">
   <img src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot2.png" width="300">
