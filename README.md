@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 - **NPM**: Usually installed with Node.js
 - **Git**: To clone the repository
 
-> ⚠️ **Note**: This project was developed to run with Node.js version 12. Other versions may cause incompatibilities.
+> ⚠️ **Note**: Using other versions may cause incompatibilities.
 
 ## Installation & Setup
 
