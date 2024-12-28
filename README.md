@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  💬 LiveChat - NodeJS | ReactJS
+  LiveChat - NodeJS | React
 </h3>
 
 <p align="center">
@@ -32,8 +32,8 @@ To run this project, make sure your environment meets the following requirements
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/RogerBambinetti/live-chat-nodejs-reactjs.git
-cd live-chat-nodejs-reactjs-react-native
+git clone https://github.com/RogerBambinetti/live-chat-nodejs-react.git
+cd live-chat-nodejs-react-react-native
 ```
 
 ### 2. Install dependencies
@@ -74,13 +74,6 @@ The layout is responsive and adapts well to both mobile and desktop devices, wit
   <img src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot2.png" width="300">
   <img src="https://github.com/RogerBambinetti/live-chat-nodejs/blob/master/preview/Screenshot3.png" width="300">
 </p>
-
-
-## 🛠 Technologies Used
-
-- **Back-end:** NodeJS
-- **Front-end Web:** ReactJS
-
 
 ## 📄 License
 
