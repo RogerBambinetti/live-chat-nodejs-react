@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const http = require('http');
@@ -24,7 +25,7 @@ io.on('connection', socket => {
     });
 });
 
-mongoose.connect(process.env.DB_MONGO_CLUSTER, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.DB_MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use((req, res, next) => {
     req.io = io;
